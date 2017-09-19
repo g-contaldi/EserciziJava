@@ -4,4 +4,4 @@ Per importare il progetto in Eclipse, o in STS, copiare l'url del repository, co
 
 File -> Import -> Projects from Git -> Clone URI -> ...andare avanti con le schermate... -> Import as general project.
 
-Una volta importato, tasto dx sul progetto -> Properties -> Project Facet -> Converto to facet form -> OK.
+Una volta importato, tasto dx sul progetto -> Properties -> Project Facet -> Convert to facet form -> OK.
