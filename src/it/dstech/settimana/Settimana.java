@@ -52,8 +52,8 @@ public class Settimana {
 			break;
 		case 8:
 			System.out.println("Grazie per l'utilizzo");
-			System.exit(0);
 			input.close();
+			System.exit(0);
 		default:
 			init();
 		}
