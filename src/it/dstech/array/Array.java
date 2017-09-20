@@ -1,26 +1,23 @@
 package it.dstech.array;
 
 import java.util.Arrays;
-import java.util.Scanner;
+import java.util.Random;
 
 public class Array {
 
 	public static void main(String[] args) {
 
 		int[] array = new int[5];
-		leggi(array);
+		riempi(array);
 		System.out.println("** verifica acquisizione dati **");
 		stampa(array);
 	}
 
-	public static void leggi(int[] array) {
+	public static void riempi(int[] array) {
 
-		Scanner input = new Scanner(System.in);
-		System.out.println("Scrivi " + array.length + " interi");
-
+		Random random = new Random();
 		for (int i = 0; i < array.length; i++)
-			array[i] = input.nextInt();
-		input.close();
+			array[i] = random.nextInt(100);
 	}
 
 	public static void stampa(int[] array) {
