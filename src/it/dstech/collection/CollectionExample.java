@@ -17,9 +17,9 @@ public class CollectionExample {
 	public static void main(String[] args) {
 
 //		arrayList();
-		 vector();
+//		 vector();
 //		 hashSet();
-		// hashMap();
+		 hashMap();
 
 	}
 
@@ -101,10 +101,10 @@ public class CollectionExample {
 		// devo prima usare il metodo values() che mi ritorna una collection
 		Collection<Persona> collection = hash.values();
 		Iterator<Persona> it = collection.iterator();
-		while (it.hasNext()) {
-			Persona p = it.next();
-			System.out.println(p);
-		}
+//		while (it.hasNext()) {
+//			Persona p = it.next();
+//			System.out.println(p);
+//		}
 
 		for (Persona persona : collection) {
 			System.out.println(persona);
